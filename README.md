@@ -7,9 +7,8 @@ A very simple docker image w/ mjml + a script for building emails.
 Configurable via environment variables:
 
 ```
-IN_EXT=mjml # extension of html input files
+IN_EXT=mjml # extension of input files
 OUT_EXT=html # extension of output files
-
 ```
 
 ## Using as part of a multi stage build
