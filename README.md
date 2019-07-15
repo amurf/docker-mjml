@@ -1,6 +1,6 @@
 # docker-mjml
 
-A very simple docker image w/ mjml installed, and a script for building emails.
+A very simple docker image w/ mjml + a script for building emails.
 
 ## Configuration
 
