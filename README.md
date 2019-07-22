@@ -19,7 +19,7 @@ This is how I use it currently
 FROM amurf/docker-mjml as emails
 ADD your-emails/ .
 ENV OUT_EXT=html
-RUN ./build-emails.sh
+RUN /build-emails.sh
 
 FROM node:current
 COPY --from=emails /emails/ /wherever-you-want-the-emails/
